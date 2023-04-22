@@ -6,7 +6,8 @@ import { WebComponent } from './pages/web/web.component';
 const routes: Routes = [
 { path: 'home', component: HomeComponent},
 {path:'android',component: AndroidComponent},
-{path:'web',component: WebComponent}
+{path:'web',component: WebComponent},
+{path:'',redirectTo:'home', pathMatch: 'full'}
 ];
 
 @NgModule({

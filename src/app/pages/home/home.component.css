@@ -7,6 +7,8 @@
 }
 .container.text-center {
     margin-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .title-name{
     text-overflow: ellipsis;
@@ -16,16 +18,22 @@
 @media (min-width: 1025px) {
 .portada{
   height:300px ;
-
+margin-left: 10px;
+  margin-right: 10px;
 }
+
+
+
   /* CSS */
 
 }
-
-@media   (max-width: 767px) {
-
-  /* CSS */
-  .col-xs-12.card1{
+@media (min-width: 768px) and (max-width:1024px) {
+.portada{
+  height:200px ;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+ .col-xs-12.card1{
     margin-bottom: 10px;
     text-align: -webkit-center;
   }
@@ -36,5 +44,25 @@
   .card-text{
    text-overflow: ellipsis;
   }
+
+
+}
+@media   (max-width: 767px) {
+
+  /* CSS */
+  .col-xs-12.card1{
+    margin-bottom: 10px;
+     text-align: -webkit-center;
+
+  }
+   .col-xs-12.card2{
+    margin-bottom: 10px;
+     text-align: -webkit-center;
+
+  }
+  .card-text{
+   text-overflow: ellipsis;
+  }
+
 }
 

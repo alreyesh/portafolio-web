@@ -1,6 +1,12 @@
-.cards{
+.card{
   text-align: -webkit-center;
 
+}
+.card.text-bg-dark {
+    margin-bottom: 20px;
+}
+.container.text-center {
+    margin-bottom: 10px;
 }
 .title-name{
     text-overflow: ellipsis;
@@ -8,7 +14,10 @@
     font-size:2vw;
 }
 @media (min-width: 1025px) {
+.portada{
+  height:300px ;
 
+}
   /* CSS */
 
 }
@@ -16,8 +25,13 @@
 @media   (max-width: 767px) {
 
   /* CSS */
-  .col.card1{
+  .col-xs-12.card1{
     margin-bottom: 10px;
+    text-align: -webkit-center;
+  }
+   .col-xs-12.card2{
+    margin-bottom: 10px;
+    text-align: -webkit-center;
   }
   .card-text{
    text-overflow: ellipsis;

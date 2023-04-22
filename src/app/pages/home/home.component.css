@@ -1,26 +1,26 @@
 .cards{
   text-align: -webkit-center;
+
 }
-.card-text{
-  font-size: 1vw;
+.title-name{
+    text-overflow: ellipsis;
+    text-align: center;
+    font-size:2vw;
 }
 @media (min-width: 1025px) {
 
   /* CSS */
 
 }
-@media (min-width: 768px) and (max-width: 1024px)  {
 
-  .col.card1{
-    margin-bottom: 10px;
-  }
-
-}
 @media   (max-width: 767px) {
 
   /* CSS */
-.col.card1{
+  .col.card1{
     margin-bottom: 10px;
+  }
+  .card-text{
+   text-overflow: ellipsis;
   }
 }
 

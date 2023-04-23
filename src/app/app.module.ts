@@ -7,6 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { AndroidComponent } from './pages/android/android.component';
 import { WebComponent } from './pages/web/web.component';
 import { ContactmeComponent } from './pages/contactme/contactme.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +18,9 @@ import { ContactmeComponent } from './pages/contactme/contactme.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+     FormsModule,
+      ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

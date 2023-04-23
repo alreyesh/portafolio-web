@@ -21,9 +21,13 @@
 margin-left: 10px;
   margin-right: 10px;
 }
+.col-xs-12.col-lg-4.card1{
+ text-align: -webkit-center;
+}
 
-
-
+.col-xs-12.col-lg-4.card2{
+ text-align: -webkit-center;
+}
   /* CSS */
 
 }
@@ -36,6 +40,7 @@ margin-left: 10px;
  .col-xs-12.card1{
     margin-bottom: 10px;
     text-align: -webkit-center;
+
   }
    .col-xs-12.card2{
     margin-bottom: 10px;

@@ -1,41 +1,43 @@
 <div class="container">
-  <h3>Contactame</h3>
-  <p>
-    Para información de postulación de empleo, contratarme para un servicio.
+    <h3>Contáctame</h3>
+    <p>
+        Para información de postulación de empleo, contratarme para un servicio.
 
-  </p>
-  <div class="row">
-    <div class="col-6">
-      <form [formGroup]="contactmeForm" autocomplete="off">
-        <div formGroupName="info">
-          <div class="asunto form-group">
-            <input type="text" formControlName="asunto" placeholder="Asunto" class="form-control" autocomplete="off">
-          </div>
-          <div class=" email form-group">
-            <input type="email" formControlName="email" placeholder="correo@dominio" class="form-control">
-          </div>
-        </div>
+    </p>
+    <div class="row">
+        <div class="col-lg-6 col-md-12 col-xs-12">
+            <form [formGroup]="contactmeForm" autocomplete="off">
+                <div formGroupName="info">
+                    <div class="asunto form-group">
+                        <input type="text" formControlName="asunto" placeholder="Asunto" class="form-control"
+                            autocomplete="off">
+                    </div>
+                    <div class=" email form-group">
+                        <input type="email" formControlName="email" placeholder="correo@dominio" class="form-control">
+                    </div>
+                </div>
 
-        <div class="mensaje form-group">
-          <textarea formControlName="mensaje" class="form-control" rows="3"></textarea>
-        </div>
-        <div class="form-group">
-          <button (click)="_onSubmit()" class="btn btn-danger">Enviar</button>
-        </div>
-      </form>
-      <!-- <p>Datos del Form:{{contactusForm.value | json }}</p>
+                <div class="mensaje form-group">
+                    <textarea formControlName="mensaje" class="form-control" rows="3"
+                        placeholder="Deje su mensaje aqui..."></textarea>
+                </div>
+                <div class="form-group">
+                    <button (click)="_onSubmit()" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+            <!-- <p>Datos del Form:{{contactusForm.value | json }}</p>
       <p>Form is valid?: {{contactusForm.valid}}</p> -->
+        </div>
+        <div class="col-lg-6 col-md-12 col-xs-12">
+
+            <div class="row">
+                <br>
+                <p><b>Celular:</b> 992563710 - Claro movil</p>
+                <p><b>Teléfono:</b> (01)6356604</p>
+                <br>
+
+            </div>
+
+        </div>
     </div>
-    <div class="col-6">
-
-      <div class="row">
-        <br>
-        <b>Celular:</b>992563710 - Claro movil
-        <b>Telefono:</b>6356604
-        <br>
-
-      </div>
-
-    </div>
-  </div>
 </div>

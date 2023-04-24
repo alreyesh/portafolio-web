@@ -8,13 +8,15 @@ import { AndroidComponent } from './pages/android/android.component';
 import { WebComponent } from './pages/web/web.component';
 import { ContactmeComponent } from './pages/contactme/contactme.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HeaderComponent } from './pages/header/header.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AndroidComponent,
     WebComponent,
-    ContactmeComponent
+    ContactmeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

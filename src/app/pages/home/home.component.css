@@ -15,6 +15,21 @@
     text-align: center;
     font-size:2vw;
 }
+button.accordion-button{
+  background-color:transparent !important;
+  box-shadow:0;
+}
+button.accordion-button:focus{
+box-shadow: none;
+    border-color: none;
+
+}
+.accordion{
+  border-color: transparent !important;
+}
+.skill.row.justify-content-start {
+    width: 90%;
+}
 @media (min-width: 1025px) {
 .portada{
   height:300px ;
@@ -28,7 +43,11 @@ margin-left: 10px;
 .col-xs-12.col-lg-4.card2{
  text-align: -webkit-center;
 }
-  /* CSS */
+/* progress bar*/
+
+.progress{
+margin-left: 20px;
+}
 
 }
 @media (min-width: 768px) and (max-width:1024px) {
@@ -49,7 +68,7 @@ margin-left: 10px;
   .card-text{
    text-overflow: ellipsis;
   }
-
+/*progress bar */
 
 }
 @media   (max-width: 767px) {
@@ -68,6 +87,104 @@ margin-left: 10px;
   .card-text{
    text-overflow: ellipsis;
   }
+  .iam{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .iam p{
+    text-align: justify !important;
+  }
+
+  /*progress bar*/
+
+  .progress {
+      /* margin-top: 100px; */
+     padding-left: 0px;
+  }
+  .card1 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .card2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 
 }
 
+/* progress bar*/
+
+button.accordion-button.collapsed{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+button.accordion-button{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.progress {
+    /* margin-top: 100px; */
+    margin-bottom: 10px !important;
+}
+span.badge{
+  font-size:medium;
+  margin-left: 5px;
+}
+/* progress bar  all*/
+.progress-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 2px;
+    margin: 0 0 15px;
+}
+.progress{
+    height: 26px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 40px;
+    overflow: visible;
+    position: relative;
+}
+.progress .progress-bar{
+    box-shadow: none;
+    border-radius: 0;
+    position: relative;
+    -webkit-animation: 2s linear 0s normal none infinite running progress-bar-stripes,animate-positive 1s;
+    animation: 2s linear 0s normal none infinite running progress-bar-stripes,animate-positive 1s;
+}
+.progress-bar .progress-value{
+    width: 50px;
+    height: 100%;
+    background: #000;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    position: absolute;
+    line-height: 27px;
+    top: 0;
+    left: 0;
+}
+.progress:after,
+.progress .progress-bar:after,
+.progress .progress-value:after{
+    content: "";
+    border-left: 13px solid rgba(0,0,0,0.1);
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -13px;
+}
+.progress.red .progress-bar:after{ border-left-color: #d9534f; }
+.progress .progress-value:after{ border-left: 13px solid #000; }
+.progress.blue .progress-bar:after{ border-left-color: #5bc0de; }
+.progress.yellow .progress-bar:after{ border-left-color: #f0ad4e; }
+.progress.green .progress-bar:after{ border-left-color: #5cb85c; }
+@-webkit-keyframes animate-positive{
+    0%{ width: 0; }
+}
+@keyframes animate-positive{
+    0%{ width: 0; }
+}

@@ -2,6 +2,10 @@
   padding: top 10px;
 
 }
+body{
+  background-color: black;
+
+}
 /*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops

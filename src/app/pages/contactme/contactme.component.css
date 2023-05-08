@@ -10,3 +10,25 @@
 .mensaje{
   margin-bottom:  10px;
 }
+.text-contact{
+  text-align: left;
+}
+.container.contactme.text-center {
+    height: 100vh;
+    margin-top: 20px;
+}
+.contact-input{
+  margin-top: 20px;
+}
+.contact-title{
+ font-size: 3.5em;
+}
+.contact-subtitle{
+  font-size: 1.0em;
+}
+.contact-number{
+  font-size: 1.0em;
+}
+.contact-input{
+  font-size: 1.0em;
+}

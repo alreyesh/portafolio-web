@@ -25,6 +25,8 @@ writer
   .type('este es mi espacio, para mostrar un poco lo que hago y quien soy.')
   .rest(500)
   .start()
+
+
   }
 
 }

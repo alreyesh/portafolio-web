@@ -98,7 +98,7 @@ font-size:2.5em;
  text-align: -webkit-center;
 }
 /* progress bar*/
-.st h3{
+.st h1{
   font-size:3.5em;
 }
 .progress{
@@ -157,6 +157,9 @@ font-size:2.5em;
 .qs p {
 
      font-size: 1.0em;
+}
+.st h1{
+  font-size:2.5em;
 }
 h1.port.card-title{
 text-align:center;

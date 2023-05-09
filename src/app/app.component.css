@@ -3,13 +3,16 @@
 
 }
 body{
-  background-color: black;
+  /*background-color: black; */
 
 }
+
 /*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
+/* Color Theme Swatches in Hex */
+
 
 @media (min-width: 1281px) {
 

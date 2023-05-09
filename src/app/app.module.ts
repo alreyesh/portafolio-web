@@ -9,6 +9,7 @@ import { WebComponent } from './pages/web/web.component';
 import { ContactmeComponent } from './pages/contactme/contactme.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HeaderComponent } from './pages/header/header.component';
+import { FooterComponent } from './pages/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { HeaderComponent } from './pages/header/header.component';
     AndroidComponent,
     WebComponent,
     ContactmeComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

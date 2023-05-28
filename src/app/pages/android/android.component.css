@@ -1,4 +1,18 @@
-.container{
+@media (min-width: 1025px){
+  /*portada */
+ .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    max-width: 100%;
+    padding: 0px;
+}
+img.card-img.portada {
+    height: 50vh;
+}
 
-height: 100vh ;
+
+  /*esto es para forzar a que se ejecute en todo los componentes */
+  :host ::ng-deep {
+
+  }
+
+
 }

@@ -13,7 +13,8 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" routerLink="home">Home</a>
+          <a class="nav-link" data-bs-toggle="collapse" aria-current="page" data-bs-target=".navbar-collapse.show"
+            routerLink="home" (click)="scrollToTop()">Home</a>
         </li>
 
         <li class="nav-item dropdown">
@@ -21,13 +22,16 @@
             Portafolio
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" routerLink="android">Android</a></li>
-            <li><a class="dropdown-item" routerLink="web">Web</a></li>
+            <li><a class="dropdown-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"
+                routerLink="android" (click)="scrollToTop()">Android</a></li>
+            <li><a class="dropdown-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"
+                routerLink="web" (click)="scrollToTop()">Web</a></li>
 
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" routerLink="contactame">Contactame</a>
+          <a class="nav-link" aria-current="page" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"
+            (click)="scrollToTop()" routerLink="contactame">Contactame</a>
         </li>
       </ul>
 
